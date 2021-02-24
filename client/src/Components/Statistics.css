@@ -1,0 +1,52 @@
+.statistics-merchants,
+.statistics-merchant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.statistics-merchants {
+  margin-top: 1rem;
+}
+
+img {
+  width: 50%;
+  padding: 1rem 0;
+}
+
+.statistics-subtitle {
+  color: #f89572;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.statistics-merchant-text {
+  word-break: normal;
+  color: #808080;
+  text-align: center;
+}
+
+.statistics-summary-year {
+  padding-top: 1rem;
+}
+
+.statistics-summary-year-list {
+  overflow: auto;
+  height: 15rem;
+}
+
+.statistics-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 6rem;
+}
+
+.statistics-row:nth-child(even) {
+  background-color: rgb(245, 248, 249);
+}
+
+.statistics-error {
+  text-align: center;
+}

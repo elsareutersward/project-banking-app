@@ -1,0 +1,37 @@
+.accounts-list {
+  margin-top: 1rem;
+  overflow: auto;
+  height: 580px;
+}
+
+.account-list-item {
+  border-top: 1px solid #e6e6e6;
+  padding: 1.5rem;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.account-list-item:last-child {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.account-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.account-info {
+  padding-bottom: 0.5rem;
+}
+
+.account-name {
+  font-weight: 700;
+  white-space: nowrap; 
+}
+
+.account-detail {
+  cursor: pointer;
+}
+
